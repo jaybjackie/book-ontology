@@ -1,0 +1,1437 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#"
+     xml:base="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasAuthor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasAuthor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasFieldWork -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasFieldWork">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasPublisher -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hasPublisher">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Publisher"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#price">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#publishDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#publishDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Agriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#ChildrenBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#ChildrenBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Creative_Industries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Creative_Industries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#E-commerce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#E-commerce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Entertainment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Entertainment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Finance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Finance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Healthcare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Healthcare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#HistoryBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#HistoryBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Human_Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Human_Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#IT_and_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#IT_and_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#LawBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#LawBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Medical_Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Medical_Book">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Publisher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Publisher"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#ReferenceBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#ReferenceBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#RomanceBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#RomanceBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sales_and_Marketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sales_and_Marketing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Self-HelpBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Self-HelpBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sports_and_Fitness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sports_and_Fitness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Test_PreparationBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Test_PreparationBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Tourism_and_Hospitality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Tourism_and_Hospitality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#TravelBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#TravelBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Arts_&amp;_PhotographyBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Arts_&amp;_PhotographyBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Biographies_&amp;_MemoirsBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Biographies_&amp;_MemoirsBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Business_&amp;_MoneyBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Business_&amp;_MoneyBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Christian_&amp;_BiblesBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Christian_&amp;_BiblesBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Comics_&amp;_Graphic_NovelsBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Comics_&amp;_Graphic_NovelsBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Computers_&amp;_TechnologyBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Computers_&amp;_TechnologyBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Cook_Food_&amp;_WineBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Cook_Food_&amp;_WineBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Crafts_Hobbies_&amp;_HomeBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Crafts_Hobbies_&amp;_HomeBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Education_&amp;_TeachingBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Education_&amp;_TeachingBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Engineering_&amp;_TransportationBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Engineering_&amp;_TransportationBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Health_Fitness_&amp;_DietingBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Health_Fitness_&amp;_DietingBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Humor_&amp;_EntertainmentBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Humor_&amp;_EntertainmentBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#LGBTQ+Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#LGBTQ+Book">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Literature_&amp;_FictionBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Literature_&amp;_FictionBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Mystery_Thriller_&amp;_SuspenseBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Mystery_Thriller_&amp;_SuspenseBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Parenting_&amp;_RelationshipsBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Parenting_&amp;_RelationshipsBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Politics_&amp;_Social_SciencesBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Politics_&amp;_Social_SciencesBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Religion_&amp;_SpiritualityBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Religion_&amp;_SpiritualityBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Science_&amp;_MathBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Science_&amp;_MathBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Science_Fiction_&amp;_FantasyBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Science_Fiction_&amp;_FantasyBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sports_&amp;_OutdoorsBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sports_&amp;_OutdoorsBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Teen_&amp;_Young_AdultBook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Teen_&amp;_Young_AdultBook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Adam_Ioannou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Adam_Ioannou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Butterworth-Heinemann -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Butterworth-Heinemann">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Publisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Chin_Meng_Khoo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Chin_Meng_Khoo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Chu_Qin_Phua -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Chu_Qin_Phua">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Derrick_Wee_Aw_Chen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Derrick_Wee_Aw_Chen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Gavin_P._Towler -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Gavin_P._Towler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#HR_managers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#HR_managers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Human_Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Jack_Benjamin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Jack_Benjamin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#John_C._Lee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#John_C._Lee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Khoo_Hoon_Eng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Khoo_Hoon_Eng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Lasith_Ranasinghe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Lasith_Ranasinghe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Mackenzie_L._Davis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Mackenzie_L._Davis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Neel_Sharma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Neel_Sharma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Nigel_Fong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Nigel_Fong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Nikolaos_D._Katopodes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Nikolaos_D._Katopodes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Oliver_Clements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Oliver_Clements">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Ray_Sinnott -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Ray_Sinnott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#World_Scientific -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#World_Scientific">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Publisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Zubair_Amin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Zubair_Amin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#academic_coach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#academic_coach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Education"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#accountant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#accountant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#actor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#actor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Entertainment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#advertising -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#advertising">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Creative_Industries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#agricultureFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#agricultureFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#anthropologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#anthropologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#archaeologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#archaeologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#architectureFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#architectureFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#astronomyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#astronomyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#biologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#biologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#broker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#broker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#childrenGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#childrenGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#choreographer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#choreographer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Entertainment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#civil_engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#civil_engineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Engineering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#credit_analyst -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#credit_analyst">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#criminologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#criminologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#customer_service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#customer_service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#E-commerce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#customer_service_representatives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#customer_service_representatives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Tourism_and_Hospitality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#data_analysts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#data_analysts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#IT_and_Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#digital_marketers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#digital_marketers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#E-commerce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#doctors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#doctors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Healthcare"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#e-commerce_managers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#e-commerce_managers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#E-commerce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#ecologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#ecologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#economicsFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#economicsFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#educationFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#educationFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#electrical_engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#electrical_engineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Engineering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#engineeringFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#engineeringFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#environmental_scienceFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#environmental_scienceFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#exercise_physiologist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#exercise_physiologist">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sports_and_Fitness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#farming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#farming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Agriculture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#fashion_design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#fashion_design">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Creative_Industries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#film_crew -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#film_crew">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Entertainment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#forestry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#forestry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Agriculture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#forestryFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#forestryFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#geographyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#geographyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#geologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#geologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#geophysicsFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#geophysicsFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#graphic_design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#graphic_design">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Creative_Industries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#healthFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#healthFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#historyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#historyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#historyGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#historyGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hotel_and_restaurant_management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#hotel_and_restaurant_management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Tourism_and_Hospitality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#lawGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#lawGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#lawyers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#lawyers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Law"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#legal_assistants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#legal_assistants">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Law"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#lifeguard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#lifeguard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sports_and_Fitness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#linguisticsFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#linguisticsFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#marine_biologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#marine_biologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#mechanical_engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#mechanical_engineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Engineering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#medicalGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#medicalGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#meteorologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#meteorologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#network_engineers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#network_engineers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#IT_and_Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#nurses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#nurses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Healthcare"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#political_scienceFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#political_scienceFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#psychologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#psychologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#recruiters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#recruiters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Human_Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#referenceGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#referenceGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#representatives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#representatives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#E-commerce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#retail_sales_associate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#retail_sales_associate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sales_and_Marketing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#romanceGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#romanceGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#self-helpGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#self-helpGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#social_media_manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#social_media_manager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sales_and_Marketing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#sociologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#sociologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#software_developers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#software_developers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#IT_and_Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#sport_medicine_medical_assistant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#sport_medicine_medical_assistant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sports_and_Fitness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#teacher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#teacher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Education"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#telemarketer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#telemarketer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Sales_and_Marketing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#test_preparationGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#test_preparationGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#tour_guides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#tour_guides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Tourism_and_Hospitality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#trader -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#trader">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#training_specialists -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#training_specialists">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Human_Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#travelGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#travelGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#travel_agents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#travel_agents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Tourism_and_Hospitality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#tutor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#tutor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Education"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#zoologyFieldWork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#zoologyFieldWork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Field_Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#LGBTQ+Genre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#LGBTQ+Genre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#arts_&amp;_photographyGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#arts_&amp;_photographyGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#biographies_&amp;_memoirsGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#biographies_&amp;_memoirsGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#business_&amp;_moneyGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#business_&amp;_moneyGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#christian_&amp;_biblesGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#christian_&amp;_biblesGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#comics_&amp;_graphic_novelsGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#comics_&amp;_graphic_novelsGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#computers_&amp;_technologyGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#computers_&amp;_technologyGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#cookbooks_food_&amp;_wineGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#cookbooks_food_&amp;_wineGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#crafts_hobbies_&amp;_homeGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#crafts_hobbies_&amp;_homeGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#education_&amp;_teachingGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#education_&amp;_teachingGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#engineering_&amp;_transportationGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#engineering_&amp;_transportationGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#health_fitness_&amp;_dietingGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#health_fitness_&amp;_dietingGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#humor_&amp;_entertainmentGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#humor_&amp;_entertainmentGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#literature_&amp;_fictionGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#literature_&amp;_fictionGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#mystery_thriller_&amp;_suspenseGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#mystery_thriller_&amp;_suspenseGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#parenting_&amp;_relationshipsGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#parenting_&amp;_relationshipsGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#politics_&amp;_social_sciencesGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#politics_&amp;_social_sciencesGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#religion_&amp;_spiritualityGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#religion_&amp;_spiritualityGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#science_&amp;_mathGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#science_&amp;_mathGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#science_fiction_&amp;_fantasyGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#science_fiction_&amp;_fantasyGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#sports_&amp;_outdoorsGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#sports_&amp;_outdoorsGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#teen_&amp;_young_adultGenre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#teen_&amp;_young_adultGenre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pichaiyuthuraisay/ontologies/2023/3/Book#Genre"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
